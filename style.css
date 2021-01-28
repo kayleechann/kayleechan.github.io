@@ -1,0 +1,37 @@
+body{
+    background-color: #A8D0E6;
+}
+
+#name{
+    color: #ffffff;
+    font-family: "Roboto Mono",Helvetica, sans-serif;
+    text-align: center;
+}
+
+.home__name{
+    /*padding-top: 100px;*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 85px;
+  }
+
+  .navbar > a > button{
+    font-family: "Roboto Mono",Helvetica, sans-serif;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border:none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    color:black;
+    margin: 10px;
+  }
